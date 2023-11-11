@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  border: 30px;
+  pad: 20px;
+
 }
 
 .App-logo {
@@ -22,6 +25,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
+}
+
+.FormContainer {
+  width: 70%;
+  margin: 0 auto; /* Center the container horizontally */
+  border: 3px solid greenyellow; /* Add a red border */
+  padding: 20px; /* Add some padding inside the container */
+  margin-bottom: 20px;
+
 }
 
 .App-link {
@@ -35,4 +48,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.data-container {
+  width: 500px;
+  margin: 0 auto; 
+  border: 2px solid red;
+  padding: 20px;
+  box-sizing: border-box; 
+  color:green;
+  font-size: 24;
+}
+
+.entry-data{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color:black;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+dt {
+  font-weight: bold;
+  text-align: right; 
+  margin-right: 1rem; 
+}
+
+dd {
+  text-align: left; 
+}
+
+
+.mb-3{
+  text-align: center;
 }
